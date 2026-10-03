@@ -3,7 +3,7 @@
 /* Адрес сервера онлайн-партий (см. README, папка server/), например 'wss://chess.example.com'. Пусто — онлайн выключен. */
 const ONLINE_URL = location.hostname === 'localhost' || location.hostname === '127.0.0.1'
   ? 'ws://localhost:10000'
-  : 'wss://chess-game-server-yca1.onrender.com';
+  : 'https://chess-game-server-test.onrender.com';
 
 const GAME_TITLE = 'Шахматная школа';
 
